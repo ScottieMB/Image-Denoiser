@@ -1,0 +1,68 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-card {
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    box-sizing: border-box;
+    margin-top: -100px;
+}
+
+.signup-card h2 {
+    color: #fff;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-card input[type="text"],
+.signup-card input[type="email"],
+.signup-card input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #007bff; /* Modify the color to your preferred one */
+    border-radius: 4px;
+    outline: none; /* Remove the default outline on focus */
+
+    /* Optionally, you can add a subtle shadow to improve visibility */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.signup-card input[type="text"]:focus,
+.signup-card input[type="email"]:focus,
+.signup-card input[type="password"]:focus {
+    border-color: #0056b3; /* Darker shade of the border color on focus */
+    box-shadow: 0px 2px 6px rgba(0, 91, 187, 0.5); /* Subtle shadow for focused state */
+}
+
+.signup-card label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.signup-card button {
+    background-color: #6e8efb;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.signup-card button:hover {
+    background-color: #5a67d8;
+}

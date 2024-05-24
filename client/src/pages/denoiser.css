@@ -1,0 +1,18 @@
+div {
+    min-height: 50px;
+    text-align: center;
+}
+
+.denoiser-container {
+    height: 800px;
+}
+
+.denoised-image-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.denoised-image-container img {
+    margin: 10px;
+}

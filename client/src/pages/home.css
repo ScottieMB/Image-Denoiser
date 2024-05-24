@@ -1,0 +1,98 @@
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+    color: white;
+    background-image: linear-gradient(to right, #57c1eb, #246fa8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+p, button {
+    font-family: Manrope;
+    font-style: normal;
+}
+
+.features-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.features-section h2 {
+    background-image: linear-gradient(to right, #57c1eb, #3b8cca);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.demo-section {
+    padding: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.demo-section h2 {
+    background-image: linear-gradient(to right, #57c1eb, #3b8cca);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-section {
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-section h2 {
+    background-image: linear-gradient(to right, #57c1eb, #3b8cca);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.call-to-action {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.button {
+    background-color: #004BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0037cc;
+}
+
+.section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1.0s ease-out, transform 1.0s ease-out;
+}
+
+.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}

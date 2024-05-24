@@ -1,0 +1,21 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-item {
+    position: relative;
+    margin: 10px;
+    text-align: center; /* Center aligns the text (and buttons) below the image */
+}
+
+.button-container {
+    margin-top: 5px; /* Adds a small space between the image and the buttons */
+}
+
+button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
